@@ -16,6 +16,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/cool', function(request, response) {
+	throw "OMG cool is fxxked up";
   response.send(cool());
 });
 
